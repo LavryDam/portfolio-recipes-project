@@ -5,6 +5,16 @@ body {
     background-color: #f4f4f4;
 }
 
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
 header {
     background-color: #333;
     color: white;
@@ -28,8 +38,10 @@ nav ul li a {
 }
 
 section {
-    padding: 20px;
-    margin: 20px;
+    padding: 50px 20px;
+    margin: 20px 0;
     background-color: white;
     border-radius: 10px;
 }
+
+
