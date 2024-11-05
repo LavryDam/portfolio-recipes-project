@@ -5,61 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Mi Portafolio</title>
+    <title>Dina Martinez Ruiz</title>
 
     <!--Estilos CSS -->
-    <link rel="stylesheet" href="assets/css/styles.css">
-    
-    <!-- Favicons -->
-    <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="assets/icons/apple-touch-icon.png"
-    />
-    <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="assets/icons/favicon-32x32.png"
-    />
-
-    <!-- Animaciones CSS CDN -->
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenido a mi Portafolio</h1>
+        <h1>Bienvenido a mi Portfolio</h1>
         <nav>
             <ul class="navegacion">
                 <li><a href="#about" class="nav-link">Sobre mí</a></li>
                 <li><a href="#projects" class="nav-link">Proyectos</a></li>
                 <li><a href="#contact" class="nav-link">Contacto</a></li>
             </ul>
-            <button class="menu-hamburguesa" id="menu-hamburguesa">
-                <ion-icon class="barras" name="menu-outline"></ion-icon>
-            </button>
         </nav>
     </header>
     
     <section id="about">
-        <h2>Sobre mí</h2>
-        <p>Descripción.</p>
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-titulo">Sobre Mí</h2>
+          <p class="bio-texto">
+            Soy una desarrolladora de software apasionada y creativa con experiencia en programación web y móvil. 
+            Especializada en tecnologías como Kotlin y React Native, me dedico a crear aplicaciones innovadoras que mejoran la vida de los usuarios. 
+            Me gusta enfrentar nuevos retos y siempre estoy buscando oportunidades para aprender y crecer en mi carrera. 
+            Con un enfoque en soluciones efectivas y diseño intuitivo, estoy listo para contribuir al éxito de un equipo dinámico.
+          </p>
+          <a href="docs/CV DINA MARTINEZ RUIZ.pdf" download class="enlace-cv">Descargar Currículum Vitae</a>
+        </div>
     </section>
-    
-    <section id="projects">
-        <h2>Mis Proyectos</h2>
-        <!-- proyectos -->
+
+    <section class="proyects" id="projects">
+        <h2 class="titulo-de-proyectos">Mi Proyecto</h2>
+        <div class="contenedor-de-proyectos">
+            <div class="contenedor-de-proyectos tarjeta-de-proyectos">
+                <h3 class="titulo-de-proyectos">App de recetas saludables y personalizadas</h3>
+                <p class="detalle-de-proyectos">
+                    Una app enfocada en recetas saludables que se adaptan a los objetivos de salud de los usuarios, como perder peso, ganar músculo o mantener una dieta equilibrada.
+                </p>
+                <a href="https://github.com/LavryDam/portfolio-recipes-project.git" target="_blank" class="enlace-de-proyecto">Descarga</a>
+            </div>
+        </div>
     </section>
     
     <section id="contact">
         <h2>Contacto</h2>
-        <p>Formulario o información de contacto.</p>
+        <h3>Correo electronico:</h3>
+            <p>dinamartinezruiz@gmail.com</p></p>
+        <h3>Telefono:</h3>
+            <p>665059581</p>
     </section>
     
-    <script src="assets/js/script.js"></script>
+    <script src="js/script.js"></script>
     <!-- Ion icons scripts -->
     <script
         type="module"
@@ -69,5 +66,6 @@
         nomodule
         src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
