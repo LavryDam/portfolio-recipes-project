@@ -109,3 +109,37 @@ section.visible {
     background-color: #555;
 }
 
+/* Estilo general del footer */
+footer {
+    background-color: #333; /* Color de fondo oscuro */
+    color: #f0f0f0; /* Color de texto claro */
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Estilo para enlaces sociales */
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espacio entre enlaces */
+    margin-bottom: 10px;
+}
+
+.footer-social a {
+    color: #f0f0f0; /* Color de los enlaces */
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease; /* Transición de color */
+}
+
+.footer-social a:hover {
+    color: #ffd700; /* Cambia a color azul claro en hover */
+}
+
+/* Estilo para el texto de derechos de autor */
+footer p {
+    font-size: 0.9em;
+    margin: 0;
+    opacity: 0.7; /* Ligera transparencia */
+}
