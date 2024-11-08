@@ -7,9 +7,13 @@
 }
 
 body {
-    background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
+    background-image: url('../images/img1.jpg'); 
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Hace que el fondo se mantenga fijo al hacer scroll */
 }
 
 /* Estilo del encabezado */
@@ -53,6 +57,11 @@ section {
     text-align: justify;
     padding: 60px 20px;
     margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 700px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 section h2 {
@@ -80,13 +89,6 @@ section p {
 #contact p {
     margin-top: 20px;
     font-weight: bold;
-}
-
-/* Estilo de transición en las secciones */
-section {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 section.visible {
