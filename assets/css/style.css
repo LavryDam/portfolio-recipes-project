@@ -18,8 +18,8 @@ body {
 
 /* Estilo del encabezado */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #333333;
+    color: #fcf2aa;
     padding: 20px 0;
     text-align: center;
     margin-bottom: 41px;
@@ -114,8 +114,8 @@ section.visible {
 
 /* Estilo general del footer */
 footer {
-    background-color: #333; /* Color de fondo oscuro */
-    color: #f0f0f0; /* Color de texto claro */
+    background-color: #333333;
+    color: #f0f0f0;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
